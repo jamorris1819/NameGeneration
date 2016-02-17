@@ -10,7 +10,7 @@ to someone. IE, the name 'Emily' appears 25,149 times, while 'Janet' only 825 ti
 and 't' follows 'e' 825 times.
 
 The program calculates a name by choosing a random (but biased towards a more common) character and repeating this until a nice string is made.
-The help improve names, the first 2 characters of a name cannot both be consonants, and you can never have more than 2 identical characters in a row.
+The help improve names, the first 2 characters of a name cannot both be consonants, and you can never have more than 2 identical characters in a row. The program then has the capability to 'critique' each name, and gives a rating on how good of a name it thinks it is.
 
 ![Screenshot](http://i.imgur.com/EzvTunN.png)
 ## Code documentation
