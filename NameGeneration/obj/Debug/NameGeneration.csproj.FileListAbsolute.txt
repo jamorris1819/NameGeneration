@@ -1,0 +1,5 @@
+C:\Users\Jacob\Documents\GitHub\Banking-System\NameGeneration\NameGeneration\bin\Debug\NameGeneration.dll
+C:\Users\Jacob\Documents\GitHub\Banking-System\NameGeneration\NameGeneration\bin\Debug\NameGeneration.pdb
+C:\Users\Jacob\Documents\GitHub\Banking-System\NameGeneration\NameGeneration\obj\Debug\NameGeneration.dll
+C:\Users\Jacob\Documents\GitHub\Banking-System\NameGeneration\NameGeneration\obj\Debug\NameGeneration.pdb
+C:\Users\Jacob\Documents\GitHub\Banking-System\NameGeneration\NameGeneration\bin\Debug\yob1996.txt
