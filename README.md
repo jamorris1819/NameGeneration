@@ -1,11 +1,11 @@
 # Name Generation Library
 ## Description
-This library strategically and logically generates names which are both readable and pronouncable. There is a library inside, and also an
+This library strategically and logically generates names which are both readable and pronounceable. There is a library inside, and also an
 example program that utilises the code and creates a UI.
 ## How does it work?
 The program takes a list of ~26,000 pieces of data, taken from a census - it shows how many babies were given that name in a certain year.
-Each piece of data contains a name and a number (referring to how many tiems it was used). The program iterates through each name and checks
-character by character and builds a 'knowledge' on what lettering patterns can occur. Each name is repeated the amount of times it was given 
+Each piece of data contains a name and a number (referring to how many times it was used). The program iterates through each name and checks
+character by character and builds a 'knowledge' on which lettering patterns can occur. Each name is repeated the amount of times it was given 
 to someone. IE, the name 'Emily' appears 25,149 times, while 'Janet' only 825 times. The program would note that 'm' follows 'e' 25,149 times,
 and 't' follows 'e' 825 times.
 
@@ -16,7 +16,7 @@ The help improve names, the first 2 characters of a name cannot both be consonan
 ## Code documentation
 Attach the library to your project and add references as you would with any library.
 ### void NameGenerator.Initialise()
-This function initialises the whole generatore, and MUST be called before any other functions in the library. This will take several seconds to
+This function initialises the whole generator, and MUST be called before any other functions in the library. This will take several seconds to
 complete, as it is processing more than 26,000 names roughly 3.5 million times.
 ### string NameGenerator.GenerateName(int length)
 This function will generate a name and return it as a string. You must pass the length in as an integer.
